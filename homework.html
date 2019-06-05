@@ -1,0 +1,68 @@
+<!DOCTYPE html> <!-- homework.html --> 
+2 <html lang="ko"> 
+3 	<head> 
+4 		<meta charset="UTF-8" /> 
+5         <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+6 		<style> 
+7 			h1{color:white;} 
+8             * { box-sizing:border-box; padding:0; margin:0; } 
+9             .row::after{ content:""; clear:both; display:table; } 
+10             [class*="col-"]{float:left; padding: 10px;} 
+11             .header, .footer{ background-color:black; color:white; padding:10px; } 
+12             .menu ul, .banner ul{list-style-type:none; } 
+13             .menu li, .banner li{background-color:black; color:white; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;} 
+14             .menu li:hover{background-color:white; color:black;} 
+15             .banner li{border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;} 
+16             .banner li img{width:30%; vertical-align:middle;} 
+17            [class*="col-"]{ width: 100%;} 
+18             @media only screen and (min-width:600px){            
+19             .col-t-1{width:8.33%;} 
+20             .col-t-2{width:16.66%;} 
+21             .col-t-3{width:25%;} 
+22             .col-t-4{width:33.33%;} 
+23             .col-t-5{width:41.66%;} 
+24             .col-t-6{width:50%;} 
+25             .col-t-7{width:58.33%;} 
+26             .col-t-8{width:66.66%;} 
+27             .col-t-9{width:75%;} 
+28             .col-t-10{width:83.33%;} 
+29             .col-t-11{width:91.66%;} 
+30             .col-t-12{width:100%;} 
+31             }  
+32             @media only screen and (min-width: 768px){             
+33             .col-1{width:8.33%;} 
+34             .col-2{width:16.66%;} 
+35             .col-3{width:25%;} 
+36             .col-4{width:33.33%;} 
+37             .col-5{width:41.66%;} 
+38             .col-6{width:50%;} 
+39             .col-7{width:58.33%;} 
+40             .col-8{width:66.66%;} 
+41             .col-9{width:75%;} 
+42             .col-10{width:83.33%;} 
+43             .col-11{width:91.66%;} 
+44             .col-12{width:100%;} 
+45             } 
+46 		a:link{color:white; background-color:none; text-decoration:none;} 
+47             a:visited{color:white;} 
+48       a:hover{color:black; background-color:none; text-decoration:none;} 
+49         </style> 
+50         <title>E PORTFOLIO</title> 
+51     </head> 
+52     <body> 
+53         <header class="header"><a href="ePortfoliohome.html"><h1>E PORTFOLIO</h1></a></header> 
+54         <div class="row"></div> 
+55         <div id="main"> 
+56             <nav class="col-3 col-t-3 menu"> 
+57             <ul><li><a href="ePortfolioTime11.html">1학년 1학기</a></li><li><a href="ePortfolioTime12.html">1학년 2학기</a></li><li><a href="ePortfolioTime21.html">2학년 1학기</a></li><li>2학년 2학기</li><li>3학년 1학기</li><li>3학년 2학기</li><li>4학년 1학기</li><li>4학년 2학기</li></ul> 
+58             </nav> 
+59             <section class="col-6 col-t-9"> 
+60             </section> 
+61              <aside class="col-3 col-t-12 banner"> 
+62                 <ul><li><a href="http://www.dju.ac.kr/kor/html/intro3.htm" target="_blank"><img src="대전대학교 마크.jpg"><figcaption>대전대학교</figcaption></a></li><li><img src="taegeuk.png">국적 : 한국</li></ul> 
+63             </aside> 
+64         </div> 
+65         <div class="row"></div> 
+66         <footer class="footer"><h4>Copyright 20XX Korea.</h4></footer> 
+67     </body> 
+68 </html> 
